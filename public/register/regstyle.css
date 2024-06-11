@@ -1,0 +1,36 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  background-color: #eee;
+  justify-content: center;
+  width: 50rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+h1 {
+  font-size: 3rem;
+  font-weight: 600;
+}
+.click:link,
+.click:visited {
+  text-decoration: none;
+  font: size 2rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  display: inline-block;
+  /* width: 25rem; */
+  border: 3px solid white;
+  text-align: center;
+  justify-content: center;
+
+  padding: 1rem 1.5rem;
+  border-radius: 2px;
+  color: rgb(57, 53, 53);
+  margin: 5rem 15rem;
+}
